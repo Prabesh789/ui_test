@@ -5,13 +5,15 @@ class MyWidget extends StatelessWidget {
   final double width;
   final String title;
   final Color backgroundColor;
+  final Color textColor;
 
   const MyWidget(
       {Key key,
       @required this.height,
       @required this.width,
       @required this.title,
-      @required this.backgroundColor})
+      @required this.backgroundColor,
+      @required this.textColor})
       : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -23,7 +25,7 @@ class MyWidget extends StatelessWidget {
         "$title",
         style: TextStyle(
           fontSize: 14,
-          color: Colors.white,
+          color: textColor,
           fontWeight: FontWeight.bold,
         ),
       ),

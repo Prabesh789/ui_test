@@ -31,6 +31,7 @@ dependencies:
   material_design_icons_flutter: ^4.0.5955
   google_fonts: 
   flutter_staggered_grid_view: 
+  flutter_range_slider: ^1.5.0
     
 
 dev_dependencies:
