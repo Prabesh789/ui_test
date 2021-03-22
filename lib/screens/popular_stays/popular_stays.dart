@@ -226,13 +226,11 @@ class _PopularStaysState extends State<PopularStays> {
               ),
               Padding(
                 padding: const EdgeInsets.all(14),
-                child: Expanded(
-                  child: Text(
-                    "The best tourist destination for holy days. Book your flights",
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                    ),
+                child: Text(
+                  "The best tourist destination for holy days. Book your flights",
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
